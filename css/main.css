@@ -4,25 +4,14 @@
     margin: 0;
 }
 
-body {
-    width: 100%;
+.portada {
+    background: url(/img/portada_small_640h.jpg);
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
 }
 
-main {
-    text-align: center;
-    width: inherit;
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-main img {
-    width: 40%;
-}
-
-main h1 {
-    margin-top: 25px;
+.portada img {
+    width: 50%;
 }
