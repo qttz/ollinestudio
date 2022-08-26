@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 .portada {
     background: url(/img/portada_small_640h.jpg);
     height: 100vh;
@@ -19,3 +23,22 @@
     left: 10%;
 }
 
+.portada nav {
+    background: rgba(255, 255, 255, .2);
+    display: inline-block;
+    position: absolute;
+    bottom: 10%;
+    left: 8%;
+}
+
+.portada nav ul {
+    padding: 15px 15px;
+
+}
+
+.portada nav ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 200%;
+    border-bottom: 1px solid black;
+}
