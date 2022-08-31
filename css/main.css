@@ -4,8 +4,13 @@
     margin: 0;
 }
 
+:root {
+    --margin-left-text: 3%;
+}
+
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portada {
@@ -41,4 +46,60 @@ html {
     margin: 10px;
     font-size: 200%;
     border-bottom: 1px solid black;
+}
+
+.servicios {
+    background: linear-gradient(#FFFFFF, #E3BCCD);
+}
+
+.servicios h1 {
+    font-size: 2.5rem;
+    margin: 3%;
+}
+
+.servicios p {
+    font-size: 1.7rem;
+    margin: 4% var(--margin-left-text);
+}
+
+.servicios img {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.servicios .titulo_servicios {
+    font-size: 1.8rem;
+    margin-left: var(--margin-left-text);
+
+}
+
+.quien_soy {
+    width: 100%;
+    background: linear-gradient(#E3BCCD, #FFFFFF);
+}
+
+.quien_soy h2 {
+    margin-left: var(--margin-left-text);
+    font-size: 1.8rem;
+    margin: 0 3% 3%;
+    padding-top: 2%;
+}
+
+.quien_soy img {
+    width: 65%;
+    margin: 0 calc(35%/2);
+    margin-bottom: 5%;
+}
+
+.quien_soy article {
+    text-align: justify;
+}
+
+.quien_soy article p {
+    font-size: 1.2rem;
+    margin: 3% 5%;
+}
+
+.servicios img, .quien_soy img {
+    box-shadow: 0px 5px 5px gray;
 }
