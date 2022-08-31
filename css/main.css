@@ -37,7 +37,7 @@ html {
 }
 
 .portada nav ul {
-    padding: 15px 15px;
+    padding: 5%;
 
 }
 
@@ -64,7 +64,7 @@ html {
 
 .servicios img {
     width: 100%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 }
 
 .servicios .titulo_servicios {
