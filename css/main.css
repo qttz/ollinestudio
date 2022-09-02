@@ -41,6 +41,11 @@ html {
 
 }
 
+.portada nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
 .portada nav ul li {
     list-style: none;
     margin: 10px;
@@ -53,8 +58,10 @@ html {
 }
 
 .servicios h1 {
+    background-color: rgb(232 243 245);
+    padding: 3% 0;
     font-size: 2.5rem;
-    margin: 3%;
+    margin: 0 3%;
 }
 
 .servicios p {
@@ -78,13 +85,6 @@ html {
     background: linear-gradient(#E3BCCD, #FFFFFF);
 }
 
-.quien_soy h2 {
-    margin-left: var(--margin-left-text);
-    font-size: 1.8rem;
-    margin: 0 3% 3%;
-    padding-top: 2%;
-}
-
 .quien_soy img {
     width: 65%;
     margin: 0 calc(35%/2);
@@ -102,4 +102,34 @@ html {
 
 .servicios img, .quien_soy img {
     box-shadow: 0px 5px 5px gray;
+}
+
+.titulo_section {
+    margin-left: var(--margin-left-text);
+    font-size: 1.8rem;
+    margin: 0 3% 3%;
+    padding-top: 2%;
+}
+
+.contacto {
+    width: 100%;
+}
+
+.contacto .informacion {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .elemento_contacto {
+    margin: 3% 0;
+    width: 75%;
+    background-color: rgb(235, 235, 235);
+    padding: 2%;
+}
+
+.informacion p {
+    font-size: 1.5em;
 }
