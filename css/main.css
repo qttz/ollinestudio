@@ -14,7 +14,7 @@ html {
 }
 
 .portada {
-    background: url("./img/portada_small_640h.jpg");
+    /* background: url("./img/portada_small_640h.jpg"); */
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
